@@ -125,6 +125,10 @@ public class MatchTabManager extends TabManager implements Listener {
     }
   }
 
+  public void setPlayerOrderFactory(PlayerOrder.Factory factory) {
+    this.playerOrderFactory = factory;
+  }
+
   protected PlayerOrder.Factory getPlayerOrderFactory() {
     return playerOrderFactory;
   }
